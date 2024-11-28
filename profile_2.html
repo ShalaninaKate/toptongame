@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#frens"></use>
+          </svg>
+          <span class="nav__link-text">Frens</span>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#earn"></use>
+          </svg>
+          <span class="nav__link-text">Earn</span>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#game"></use>
+          </svg>
+          <span class="nav__link-text">Games</span>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#user"></use>
+          </svg>
+          <span class="nav__link-text">Profile</span>
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+</aside>
+
+    <main class="page page--profile profile">
+      <h1 class="profile__title title">Hello, <span class="title__bold">Dmitry</span></h1>
+      <div class="profile__balance balance">
+        <h2 class="balance__title">Balance</h2>
+        <div class="balance__amount">
+          <img src="./img/svg/ton-black.svg" alt="ton">5,000,000
+        </div>
+      </div>
+      <div class="profile__history">
+        <h2 class="profile__history-title">History</h2>
+        <ul class="profile__history-items">
+          <li class="profile__history-item item-history">
+            <h3 class="item-history__title">Join Youtube</h3>
+            <div class="item-history__amount">
+              <img src="./img/svg/ton-black.svg" alt="ton">+5000
+            </div>
+          </li>
+          <li class="profile__history-item item-history">
+            <h3 class="item-history__title">Join Youtube</h3>
+            <div class="item-history__amount">
+              <img src="./img/svg/ton-black.svg" alt="ton">+5000
+            </div>
+          </li>
+          <li class="profile__history-item item-history">
+            <h3 class="item-history__title">Join Youtube</h3>
+            <div class="item-history__amount">
+              <img src="./img/svg/ton-black.svg" alt="ton">+5000
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="profile__bottom">
+        <button type="button" class="profile__button button">
+          <span class="profile__button-text">Claim</span>
+          <div class="profile__button-amount">
+            <img src="./img/svg/ton-white.svg" alt="ton">5000
+          </div>
+        </button>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
