@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --font-family: "Mont";
   --main-color: #000;
@@ -140,6 +141,12 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  /* Отключить выделение текста */
+  -webkit-touch-callout: none;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  /* Поддержка безопасных зон */
+  /* Отключить контекстное меню */
 }
 
 input {
